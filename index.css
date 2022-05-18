@@ -203,3 +203,19 @@ images {
     grid-column: 3/ span 2;
     background-size: contain;
 }
+.item4{
+    background-image: url("images/gallery4.jpg");
+    grid-column: 1/ span 2;
+    background-size: contain;
+}
+
+
+/* Contact */
+
+.contact {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    background-color: rgb(195, 194, 194);
+    position: sticky;
+}
