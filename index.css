@@ -35,8 +35,8 @@ body {
     display: block;
     height: 27vh;
     width: 14vw;
-    position: relative;
-    left: 20vh;
+    sition: relative
+    let: 20vh;
     bottom: 20vh;
     box-shadow: 0 0 3px 0px rgb(44, 35, 35);
 }
