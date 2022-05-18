@@ -30,3 +30,41 @@ body {
     border-radius: 50%;
     box-shadow: -1px 1px 2px 0px rgb(44, 35, 35);
 }
+
+.header img {
+    display: block;
+    height: 27vh;
+    width: 14vw;
+    position: relative;
+    left: 20vh;
+    bottom: 20vh;
+    box-shadow: 0 0 3px 0px rgb(44, 35, 35);
+}
+
+
+/* Nav Heading  */
+#nav-heading {
+    text-align: right;
+    padding-top: 0.8rem;
+    position: sticky;
+}
+
+#nav-heading li {
+    display: inline-block;
+    padding: 0.8rem;
+    margin: 0.5rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-shadow: 0 0 1px rgb(147, 133, 42);
+}
+
+#nav-heading li a {
+    text-decoration: none;
+    color: rgb(97, 92, 65);
+    transition: 0.1s;
+}
+
+#nav-heading li a:hover {
+    padding-top: 2px;
+    border-top: 1px solid rgb(97, 92, 65);
+}
