@@ -181,3 +181,25 @@ details a {
 
 
 /* Images */
+images {
+    display: grid;
+    height: 80vh;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px 15px;
+}
+
+.item1{
+    background-image: url("images/pic1.jpg");
+    background-size: contain;
+}
+.item2{
+    background-image: url("images/gallery10.jpg");
+}
+
+.item3{     
+    background-image: url("images/pic2.jpg");
+    grid-row: 1/ span 2;
+    grid-column: 3/ span 2;
+    background-size: contain;
+}
