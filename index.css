@@ -219,3 +219,17 @@ images {
     background-color: rgb(195, 194, 194);
     position: sticky;
 }
+.writeletter table {
+    margin-right: 7rem;
+    margin-top: 1rem;
+}
+
+.writeletter table tr input {
+    padding: 0.5rem;
+    width: 17rem;
+    border-radius: 10px;
+    background-color: rgb(220, 217, 217);
+    margin-top: 1rem;
+    border: none;
+    border-bottom: 1px solid black;
+}
