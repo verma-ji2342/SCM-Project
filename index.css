@@ -68,3 +68,72 @@ body {
     padding-top: 2px;
     border-top: 1px solid rgb(97, 92, 65);
 }
+
+/* Background Image */
+
+#b-image {
+    height: 100vh;
+    background-image: url("images/gallery6.jpg");
+    background-size: cover;
+}
+
+
+/* Mission */
+.mission {
+    display: flex;
+    justify-content: center;
+    margin-top: -4rem;
+}
+
+.mission h2 {
+    text-shadow: 0 0 1px rgb(147, 133, 42);
+}
+
+#vission {
+    background-color: white;
+    padding-left: 5rem;
+}
+
+#vission img {
+    height: 20rem;
+    width: 18rem;
+    margin-left: -2rem;
+}
+
+#vission a {
+    text-decoration: none;
+}
+
+#cities {
+    background-color: white;
+    padding: 0rem 5rem 0rem 4rem;
+}
+
+#cities ul li {
+    list-style: none;
+    line-height: 2rem;
+}
+
+#cities ul li::before {
+    content: ' ';
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background-image: url('image/hand.png');
+    background-size: contain;
+}
+
+details {
+    display: inline;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+details img {
+    padding: 1.5rem 0rem 0.5rem 3rem;
+    display: block;
+}
+
+details a {
+    margin-left: 2.2rem;
+}
