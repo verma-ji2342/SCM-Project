@@ -250,3 +250,14 @@ images {
 .c_information {
     margin-left: 3rem;
 }
+
+.location {
+    margin-left: 9rem;
+    margin-top: 4rem;
+
+}
+/* A change in heading for this only */
+
+.heading_contact {
+    margin-top: 2rem;
+}
