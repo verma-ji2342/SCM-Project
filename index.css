@@ -233,3 +233,20 @@ images {
     border: none;
     border-bottom: 1px solid black;
 }
+.writeletter table tr textarea {
+    padding: 0.5rem;
+    width: 17rem;
+    border-radius: 10px;
+    background-color: rgb(220, 217, 217);
+    margin-top: 1rem;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+::placeholder {
+    color: black;
+}
+
+.c_information {
+    margin-left: 3rem;
+}
