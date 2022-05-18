@@ -148,3 +148,23 @@ details a {
     margin-top: 5rem;
     text-shadow: 0 0 1px rgb(147, 133, 42);
 }
+
+/* Why */
+
+.why {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.5rem 1.5rem;
+    padding: 0rem 3rem 0rem 2rem;
+
+}
+
+.why_data_video1 {
+    grid-column: 2/ span 2;
+    grid-row: 1/span 2;
+    /* grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3; */
+}
