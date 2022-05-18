@@ -1,0 +1,32 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.header {
+    height: 20vh;
+    margin-top: -1rem;
+    background-color: rgb(253, 221, 52);
+}
+
+/* Social Media Icons */
+
+#social-media {
+    text-align: right;
+    padding: 0.5rem;
+}
+
+#social-media a li {
+    list-style: none;
+    display: inline-block;
+    padding: 0.5rem;
+}
+
+#social-media a {
+    color: rgba(52, 29, 29);
+}
+
+#social-media li:hover {
+    border-radius: 50%;
+    box-shadow: -1px 1px 2px 0px rgb(44, 35, 35);
+}
