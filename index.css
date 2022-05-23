@@ -1,12 +1,14 @@
 body {
     padding: 0px;
     margin: 0px;
+    font-size: 1.5rem;
+    background-color: bisque;
 }
 
 .header {
     height: 20vh;
     margin-top: -1rem;
-    background-color: rgb(253, 221, 52);
+    background-color:aqua;
 }
 
 /* Social Media Icons */
@@ -93,7 +95,7 @@ body {
 }
 
 #vission {
-    background-color: black; // change 
+    background-color: white; 
     padding-left: 5rem;
 }
 
