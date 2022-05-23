@@ -34,9 +34,17 @@
             <li><a href="#">SNAPSHOTS</a></li>
             <li><a href="#">CONTACT US</a></li>
             <li><a href="#">OUR SUPPORTERS</a></li>
-            <li><a href="#">DONATE</a></li>
+            <li><div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Donate</button>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="https://www.zomato.com/">Donate Food</a>
+                  <a href="https://lingokids.com/english-for-kids/clothes">Donate Cloths</a>
+                  <a href="https://www.eraktkosh.in/BLDAHIMS/bloodbank/transactions/bbpublicindex.html5">Donate Blood</a>
+                </div>
+            </div></li>
         </ul>
-        <img src="images\logo.png" alt="Logo of our NGO">
+
+        <img src="images\logopng.png" alt="Logo of our NGO">
     </div>
     <div id="b-image">
     </div>
@@ -55,7 +63,7 @@
             <h2>We are in these Cities</h2>
 
             <ul>
-                <li>&nbsp;<a href="#">Chennai</a></li>
+                <li>&nbsp;Chennai</li>
                 <li>&nbsp;Hyderabad</li>
                 <li>&nbsp;Chandigarh</li>
                 <li>&nbsp;Patiala</li>
@@ -148,12 +156,7 @@
                 &nbsp; We Care Welfare Society, <br>
                 &nbsp; Sector 22, Chandigarh <br>
                 &nbsp; Postal Code: 140401
-                <hr>
-                <b>Fax No.</b> <br>
-                &nbsp; 3456789056789 <br>
-                &nbsp; 3456789058888 
-    
-                </div>
+            </div>
             <div class="location">
                 <center>
                     <iframe
@@ -180,9 +183,28 @@
     
     
         </footer>
+        <script>
+            /* When the user clicks on the button, 
+            toggle between hiding and showing the dropdown content */
+            function myFunction() {
+              document.getElementById("myDropdown").classList.toggle("show");
+            }
+            
+            // Close the dropdown if the user clicks outside of it
+            window.onclick = function(event) {
+              if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                  var openDropdown = dropdowns[i];
+                  if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                  }
+                }
+              }
+            }
+            </script>
     
     </body>
     
-    </html>
-    </body>
     </html>
